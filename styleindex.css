@@ -47,3 +47,11 @@ section{                                        /* Aqui hacemos todos los ajuste
     
 }
 
+
+h1{                                         /* H1: Es el encabezado principal de la página. Sirve para mostrar el título más importante del contenido. */
+
+    color: #2a75bb;                      /* Cambia el color del título a azul. */
+}
+
+
+
