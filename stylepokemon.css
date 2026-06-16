@@ -23,3 +23,14 @@ body{
     margin: 0 15px;                             /* Agrega espacio entre las opciones del menú. */
 
 }
+
+
+.navbar ul li a{                               /* NAVBAR UL LI A: Son los enlaces de navegación. Sirven para dirigir al usuario a otras páginas del sitio. */
+    color: white;                            /* Cambia el color del texto a blanco. */
+    text-decoration: none;                     /* Elimina el subrayado de los enlaces. */
+    font-weight: bold;                         /* Muestra el texto en negrita. */
+}
+
+.navbar ul li a:hover{                          /* HOVER: Es un efecto que se activa al pasar el cursor sobre un enlace. Sirve para indicar que el enlace puede seleccionarse. */
+    color: yellow;                            /* Cambia el color del enlace a amarillo. */
+}
