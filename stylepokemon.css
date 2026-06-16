@@ -10,3 +10,16 @@ body{
     background-color: #2a75bb;                /* Asigna un color azul de fondo. */
     padding: 15px;                              /* Agrega espacio interno alrededor del menú. */
 }
+
+.navbar ul{
+    list-style: none;                           /* Elimina los puntos de la lista. */
+    text-align: center;                         /* Centra las opciones del menú. */
+    margin: 0;                                  /* Elimina los márgenes externos. */
+    padding: 0;                                 /* Elimina los espacios internos. */
+}
+
+.navbar ul li{                                  /* NAVBAR UL LI: Son los elementos de la lista. Sirven para representar cada opción del menú. */
+    display: inline;                            /* Coloca los elementos en una misma línea. */
+    margin: 0 15px;                             /* Agrega espacio entre las opciones del menú. */
+
+}
