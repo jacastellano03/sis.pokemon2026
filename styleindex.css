@@ -29,3 +29,21 @@ nav ul li a{                                /* NAV UL LI A: Representa los enlac
 
 }
 
+
+nav ul li a:hover{                        /* Hace que las opciones de la navegion se pongan de color cuando pasamos el puntero para seleccionar. */
+    color: yellow;                        /* Cambia el color del enlace a amarillo. */
+    
+}
+
+    
+section{                                        /* Aqui hacemos todos los ajustes de nuestra section donde se encontraban nuestro h1 el p y la imagen. */
+    
+    width: 80%;                                 /* Define el ancho de la sección. */
+    margin: 30px auto;                          /* Centra la sección y agrega espacio exterior. */
+    text-align: center;                         /* Centra el contenido de la sección. */
+    background-color: white;                    /* Asigna un fondo blanco. */
+    padding: 20px;                              /* Agrega espacio interno. */
+    border: 1px solid #ccc;                     /* Añade un borde gris claro. */
+    
+}
+
