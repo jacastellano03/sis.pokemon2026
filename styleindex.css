@@ -7,16 +7,25 @@ body{
     min-height: 100vh;                                    /* Hace que el cuerpo ocupe como mínimo toda la altura de la ventana. */
 }
 
-nav{
-    background-color: #2a75bb;
-    padding: 15px 0;
+nav{                                       /* NAV: Es la barra de navegación de la página. Sirve para contener los enlaces o menús de navegación. */
+    background-color: #2a75bb;             /* Asigna un color azul de fondo. */
+    padding: 15px 0;                       /* Agrega espacio interno arriba y abajo. */
 
 
-nav ul{
-    list-style: none;
-    text-align: center;
-    margin: 0;
-    padding: 0;
+nav ul{                                    /* NAV UL: Es la lista que contiene las opciones del menú. Sirve para organizar los enlaces de navegación. */
+    list-style: none;                      /* Elimina los puntos de la lista. */
+    text-align: center;                    /* Centra las opciones del menú. */
+    margin: 0;                             /* Elimina márgenes externos. */
+    padding: 0;                            /* Elimina espacios internos. */
+
+}
+
+
+nav ul li a{                                /* NAV UL LI A: Representa los enlaces del menú. Sirve para personalizar la apariencia de los enlaces. */
+    
+    color: white;                           /* Cambia el color del texto a blanco. */
+    text-decoration: none;                  /* Elimina el subrayado de los enlaces. */
+    font-weight: bold;                      /* Coloca el texto en negrita. */
 
 }
 
