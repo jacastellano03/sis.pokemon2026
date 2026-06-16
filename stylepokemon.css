@@ -74,3 +74,20 @@ p{
     border-radius: 10px;                      /* Redondea las esquinas de la tarjeta. */
 }
 
+
+/* Imagen */
+.card img{                              /* CARD IMG: Corresponde a la imagen dentro de cada tarjeta. Sirve para mostrar la imagen del Pokémon. */
+    width: 150px;                       /* Define el ancho de la imagen. */
+    height: 150px;                      /* Define la altura de la imagen. */
+    object-fit: contain;                /* Ajusta la imagen sin deformarla. */
+}
+
+/* Título */
+.card h2{                                   /* CARD H2: Es el nombre del Pokémon. Sirve para destacar el título de cada tarjeta. */
+    color: #2a75bb;                       /* Cambia el color del texto a azul. */
+}
+
+/* Tipo */
+.card h4{                               /* CARD H4: Es el subtítulo que muestra el tipo del Pokémon. Sirve para proporcionar información adicional. */
+    color: #666;                      /* Establece un color gris para diferenciarlo del título. */
+}
