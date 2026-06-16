@@ -1,10 +1,10 @@
 body{
-    font-family: Arial, Helvetica, sans-serif;
-    display: flex;
-    justify-content: center;
-    background-color: skyblue;
-    margin: 0;
-    min-height: 100vh;
+    font-family: Arial, Helvetica, sans-serif;            /* Define el tipo de letra que se mostrará en la página. */
+    display: flex;                                        /* Activa Flexbox para organizar los elementos. */
+    justify-content: center;                              /* Centra horizontalmente el contenido. */
+    background-color: skyblue;                            /* Establece un color de fondo celeste. */
+    margin: 0;                                            /* Elimina los márgenes predeterminados del navegador. */
+    min-height: 100vh;                                    /* Hace que el cuerpo ocupe como mínimo toda la altura de la ventana. */
 }
 
 nav{
@@ -19,3 +19,4 @@ nav ul{
     padding: 0;
 
 }
+
