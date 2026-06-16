@@ -11,3 +11,11 @@ nav{
     background-color: #2a75bb;
     padding: 15px 0;
 
+
+nav ul{
+    list-style: none;
+    text-align: center;
+    margin: 0;
+    padding: 0;
+
+}
