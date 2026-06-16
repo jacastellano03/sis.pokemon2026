@@ -53,3 +53,13 @@ p{
     font-size: 18px;                      /* Define el tamaño de la letra. */
     color: #333;                        /* Establece un color gris oscuro para el texto. */
 }
+
+
+/* Contenedor de tarjetas */
+.cards{                                         /* CARDS: Es el contenedor principal de las tarjetas. Sirve para organizar todas las tarjetas de Pokémon en una cuadrícula. */
+    width: 90%;                                 /* Define el ancho del contenedor. */
+    margin: 20px auto;                          /* Centra el contenedor en la página. */
+    display: grid;                              /* Activa el sistema Grid para organizar elementos. */
+    grid-template-columns: repeat(4, 1fr);      /* Crea 4 columnas del mismo tamaño. */
+    gap: 20px;                                  /* Agrega espacio entre las tarjetas. */
+}
