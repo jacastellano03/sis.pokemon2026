@@ -73,3 +73,9 @@ h2{                                         /* H2: Es un subtítulo dentro de la
     margin-top: 30px;                       /* Agrega espacio superior. */
 
 }
+
+
+section p{                                 /* SECTION P: Selecciona únicamente los párrafos que están dentro de una sección. Sirve para mejorar la legibilidad del texto aumentando el espacio entre líneas. */
+
+    line-height: 1.5;                     /* Incrementa la separación entre líneas de texto. */
+}
