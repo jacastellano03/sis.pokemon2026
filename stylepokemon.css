@@ -63,3 +63,14 @@ p{
     grid-template-columns: repeat(4, 1fr);      /* Crea 4 columnas del mismo tamaño. */
     gap: 20px;                                  /* Agrega espacio entre las tarjetas. */
 }
+
+
+/* Tarjeta */
+.card{                                      /* CARD: Es una tarjeta individual. Sirve para mostrar la información de un Pokémon. */
+    background-color: white;                /* Asigna un fondo blanco a la tarjeta. */
+    border: 1px solid #ccc;                 /* Agrega un borde gris claro. */
+    padding: 15px;                            /* Agrega espacio interno. */
+    text-align: center;                       /* Centra el contenido de la tarjeta. */
+    border-radius: 10px;                      /* Redondea las esquinas de la tarjeta. */
+}
+
