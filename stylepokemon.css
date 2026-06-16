@@ -91,3 +91,10 @@ p{
 .card h4{                               /* CARD H4: Es el subtítulo que muestra el tipo del Pokémon. Sirve para proporcionar información adicional. */
     color: #666;                      /* Establece un color gris para diferenciarlo del título. */
 }
+
+
+/* Descripción */
+.card p{                                /* CARD P: Es la descripción del Pokémon. Sirve para mostrar información detallada dentro de la tarjeta. */
+    font-size: 14px;                    /* Define un tamaño de letra más pequeño. */
+    text-align: justify;                /* Alinea el texto de forma uniforme a ambos lados. */
+}
