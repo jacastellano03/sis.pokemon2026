@@ -34,3 +34,22 @@ body{
 .navbar ul li a:hover{                          /* HOVER: Es un efecto que se activa al pasar el cursor sobre un enlace. Sirve para indicar que el enlace puede seleccionarse. */
     color: yellow;                            /* Cambia el color del enlace a amarillo. */
 }
+
+
+/* Titulo */
+.title{                                         /* TITLE: Es la sección donde se encuentra el título principal. Sirve para organizar y centrar el encabezado de la página. */
+    text-align: center;                         /* Centra el contenido horizontalmente. */
+    margin: 30px 0;                             /* Agrega espacio arriba y abajo. */
+
+}
+
+h1{
+    color: #2a75bb;                     /* Establece un color azul para el título. */
+    font-size: 40px;                      /* Define el tamaño del texto. */
+    margin-bottom: 10px;                  /* Agrega espacio debajo del título. */
+}
+
+p{
+    font-size: 18px;                      /* Define el tamaño de la letra. */
+    color: #333;                        /* Establece un color gris oscuro para el texto. */
+}
