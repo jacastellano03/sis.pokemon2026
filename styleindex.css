@@ -60,3 +60,8 @@ p{                                          /* P: Es la etiqueta de párrafo. Si
 }
 
 
+img{                                       /* IMG: Es la etiqueta utilizada para mostrar imágenes. Sirve para insertar contenido visual en la página. */
+
+    width: 300px;                           /* Establece el ancho de la imagen. */
+    margin-top: 20px;                       /* Agrega espacio por encima de la imagen. */
+}
