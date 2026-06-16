@@ -4,3 +4,9 @@ body{
     margin: 0;                                          /* Elimina los márgenes predeterminados del navegador. */
 
 }
+
+/* Menú */
+.navbar{                                        /* NAVBAR: Es la barra de navegación principal. Sirve para contener los enlaces del menú. */
+    background-color: #2a75bb;                /* Asigna un color azul de fondo. */
+    padding: 15px;                              /* Agrega espacio interno alrededor del menú. */
+}
