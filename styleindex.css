@@ -11,6 +11,8 @@ nav{                                       /* NAV: Es la barra de navegación de
     background-color: #2a75bb;             /* Asigna un color azul de fondo. */
     padding: 15px 0;                       /* Agrega espacio interno arriba y abajo. */
 
+}
+
 
 nav ul{                                    /* NAV UL: Es la lista que contiene las opciones del menú. Sirve para organizar los enlaces de navegación. */
     list-style: none;                      /* Elimina los puntos de la lista. */
