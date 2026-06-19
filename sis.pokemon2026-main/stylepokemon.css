@@ -1,8 +1,3 @@
-body{
-    font-family: Arial, Helvetica, sans-serif;          /* Define el tipo de letra que utilizará la página. */
-    background-color: skyblue;                        /* Establece un color celeste como fondo. */
-    margin: 0;                                          /* Elimina los márgenes predeterminados del navegador. */
-}
 
 .navbar{                                        /* NAVBAR: Es la barra de navegación principal. Sirve para contener los enlaces del menú. */
     background-color: #2a75bb;                /* Asigna un color azul de fondo. */
@@ -33,6 +28,11 @@ body{
     color: orange;                            /* Cambia el color del enlace a amarillo. */
 }
 
+body{
+    font-family: Arial, Helvetica, sans-serif;          /* Define el tipo de letra que utilizará la página. */
+    background-color: skyblue;                        /* Establece un color celeste como fondo. */
+    margin: 0;                                          /* Elimina los márgenes predeterminados del navegador. */
+}
 
 /* Titulo */
 .title{                                         /* TITLE: Es la sección donde se encuentra el título principal. Sirve para organizar y centrar el encabezado de la página. */
