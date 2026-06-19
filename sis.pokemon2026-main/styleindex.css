@@ -1,0 +1,93 @@
+
+body{
+    font-family: Arial, Helvetica, sans-serif;            /* Define el tipo de letra que se mostrará en la página. */
+    justify-content: center;                              /* Centra horizontalmente el contenido. */
+    background-color: skyblue;                            /* Establece un color de fondo celeste. */
+    margin: 0;                                            /* Elimina los márgenes predeterminados del navegador. */
+    min-height: 100vh;                                    /* Hace que el cuerpo ocupe como mínimo toda la altura de la ventana. */
+    list-style: none;
+    gap: 20px;
+    
+}
+
+.navmenu{                                       /* Es la barra de arriba de la pagina de navegación */
+    background-color: #2a75bb;             /* Asigna un color azul de fondo. */
+    padding: 15px 0;                       /* Agrega espacio interno arriba y abajo. */
+}
+
+
+.navmenu ul{                                    /* NAV UL: Es la lista que contiene las opciones del menú. Sirve para organizar los enlaces de navegación. */
+    list-style: none;                      /* Elimina los puntos de la lista. */
+    text-align: center;                    /* Centra las opciones del menú. */
+    margin: 0;                             /* Elimina márgenes externos. */
+    padding: 0;                            /* Elimina espacios internos. */
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+
+}
+
+
+.navmenu ul li a{                                /* NAV UL LI A: Representa los enlaces del menú. Sirve para personalizar la apariencia de los enlaces. */
+    
+    color: white;                         /* Cambia el color del texto a blanco. */
+    text-decoration: none;                  /* Elimina el subrayado de los enlaces. */
+    font-weight: bold;                      /* Coloca el texto en negrita. */
+
+}
+
+
+.navmenu ul li a:hover{                        /* Hace que las opciones de la navegion se pongan de color cuando pasamos el puntero para seleccionar. */
+    color: orange;                        /* Cambia el color del enlace a amarillo. */
+    
+}
+
+    
+section{                                        /* Aqui hacemos todos los ajustes de nuestra section donde se encontraban nuestro h1 el p y la imagen. */
+   
+    width: 80%;                                 /* Define el ancho de la sección. */
+    margin: 30px auto;                          /* Centra la sección y agrega espacio exterior. */
+    text-align: center;                         /* Centra el contenido de la sección. */
+    background-color: white;                    /* Asigna un fondo blanco. */
+    padding: 20px;                              /* Agrega espacio interno. */
+    border: 1px solid #ccc;                     /* Añade un borde gris claro. */
+    
+}
+
+
+h1{                                         /* H1: Es el encabezado principal de la página. Sirve para mostrar el título más importante del contenido. */
+
+    color: #2a75bb;                      /* Cambia el color del título a azul. */
+}
+
+
+p{                                          /* P: Es la etiqueta de párrafo. Sirve para mostrar bloques de texto informativo. */
+
+    font-size: 18px;                        /* Define el tamaño de la letra. */
+}
+
+
+img{                                       /* IMG: Es la etiqueta utilizada para mostrar imágenes. Sirve para insertar contenido visual en la página. */
+
+    width: 300px;                           /* Establece el ancho de la imagen. */
+    margin-top: 20px;                       /* Agrega espacio por encima de la imagen. */
+}
+
+
+h2{                                         /* H2: Es un subtítulo dentro de la página. Sirve para dividir y organizar mejor el contenido. */
+
+    color: #2a75bb;                       /* Asigna color azul al subtítulo. */
+    margin-top: 30px;                       /* Agrega espacio superior. */
+
+}
+
+
+section p{                                 /* SECTION P: Selecciona únicamente los párrafos que están dentro de una sección. Sirve para mejorar la legibilidad del texto aumentando el espacio entre líneas. */
+
+    line-height: 1.5;                     /* Incrementa la separación entre líneas de texto. */
+}
+
+
+
+
+
