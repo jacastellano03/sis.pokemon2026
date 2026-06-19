@@ -1,15 +1,4 @@
 
-body{
-    font-family: Arial, Helvetica, sans-serif;            /* Define el tipo de letra que se mostrará en la página. */
-    justify-content: center;                              /* Centra horizontalmente el contenido. */
-    background-color: skyblue;                            /* Establece un color de fondo celeste. */
-    margin: 0;                                            /* Elimina los márgenes predeterminados del navegador. */
-    min-height: 100vh;                                    /* Hace que el cuerpo ocupe como mínimo toda la altura de la ventana. */
-    list-style: none;
-    gap: 20px;
-    
-}
-
 .navmenu{                                       /* Es la barra de arriba de la pagina de navegación */
     background-color: #2a75bb;             /* Asigna un color azul de fondo. */
     padding: 15px 0;                       /* Agrega espacio interno arriba y abajo. */
@@ -42,6 +31,16 @@ body{
     
 }
 
+body{
+    font-family: Arial, Helvetica, sans-serif;            /* Define el tipo de letra que se mostrará en la página. */
+    justify-content: center;                              /* Centra horizontalmente el contenido. */
+    background-color: skyblue;                            /* Establece un color de fondo celeste. */
+    margin: 0;                                            /* Elimina los márgenes predeterminados del navegador. */
+    min-height: 100vh;                                    /* Hace que el cuerpo ocupe como mínimo toda la altura de la ventana. */
+    list-style: none;
+    gap: 20px;
+    
+}
     
 section{                                        /* Aqui hacemos todos los ajustes de nuestra section donde se encontraban nuestro h1 el p y la imagen. */
    
